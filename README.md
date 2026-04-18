@@ -19,7 +19,7 @@ This repository contains two self-contained Jupyter notebooks used to reproduce 
 - `statistics_analysis.ipynb`  
   - Self-contained notebook used for statistical analysis and interpretation of results.
 - `supersymmetry_analysis_beta.ipynb`  
-  - test version formated using atlasopenmagic for data and background samples (not signal smaples). Alternative skim used for testing.
+  - test version formatted using atlasopenmagic for data and background samples (not signal samples). Alternate skim used for testing.
 
 These notebooks represent the core computational components used to produce the results presented in the thesis.
 
