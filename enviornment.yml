@@ -1,0 +1,15 @@
+name: binder-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - awkward
+  - uproot
+  - vector
+  - pip
+  - pip:
+      - mt2
+      - atlasopenmagic
