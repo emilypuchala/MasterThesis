@@ -24,4 +24,7 @@ This repository contains two self-contained Jupyter notebooks used to reproduce 
 These notebooks represent the core computational components used to produce the results presented in the thesis.
 
 
+## Running the Code: WIP
+Open with Binder: https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD </br>
+Open with Google Collab:
 
