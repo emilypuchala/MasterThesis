@@ -24,7 +24,11 @@ This repository contains two self-contained Jupyter notebooks used to reproduce 
 These notebooks represent the core computational components used to produce the results presented in the thesis.
 
 
-## Running the Code: WIP
-Open with Binder: https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD </br>
-Open with Google Collab:
+## Running the Notebooks Online
+Open with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD) </br>
+
+Open with Google Collab:</br>
+- [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analysis.ipynb)</br>
+- [supersymmetry_analysis_beta](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/supersymmetry_analysis_beta.ipynb)</br>
+
 
