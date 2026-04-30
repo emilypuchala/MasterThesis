@@ -1,31 +1,67 @@
-# Master's Thesis
-Note: This repository is a work in progress while I finalize my master's thesis.
+#  Master's Thesis
+> This repository is a work in progress while my master's thesis is being finalized.
  
 
 ## About
-This repository contains selected code files that are directly relevant to the results of my master's thesis at the University of Oslo.
-It includes Jupyter notebooks used to perform an experimental high-energy physics analysis based on ATLAS Open Data.
+This repository contains reproducible Jupyter notebooks developed as part of my master's thesis at the University of Oslo.
+The project focuses on a experimental high-energy physics analysis using ATLAS Open Data for education, with an emphasis on dark matter searches in a supersymmetric framework with accompanying statistical analysis. The notebooks are designed to be self-contained and reproducible, enabling users to explore the analysis workflows from data handling to final results. 
 
-## Thesis:
+## Thesis
 - **Title:** Dark Matter Searches in Two-Lepton Final States with Missing Transverse Energy using ATLAS Open Data 
+- **Author:** Emily Puchala
+- **Institution:** University of Oslo, Faculty of Mathematics and Natural Sciences
+- **Year:** 2026
 
 ---
+## Repository Structure
+- `statistics_analysis.ipynb`: statistical analysis and interpretation of results
+- `supersymmetry_analysis_local.ipynb`: analysis using locally stored datasets
+- `supersymmetry_analysis_2025beta_release.ipynb`: analysis using ATLAS Open Data (via atlasopenmagic)
+- `supersymmetry_analysis_test.ipynb`: test version using atlasopenmagic for all datasets
+- `environment.yml`: environment configuration
 
-## Code
-
-This repository contains two self-contained Jupyter notebooks used to reproduce key parts of the analysis:
-- `supersymmetry_analysis.ipynb`  
-  - Self-contained notebook containing all necessary code for a supersymmetry-based physics analysis.
+---
+## Notebooks
+This repository includes multiple versions of the supersymmetry analysis notebook. These versions differ in how the datasets are loaded, the analysis content itself is identical. 
 - `statistics_analysis.ipynb`  
-  - Self-contained notebook used for statistical analysis and interpretation of results.
-- `supersymmetry_analysis_beta.ipynb`  
-  - test version formatted using atlasopenmagic for data and background samples (not signal samples). Alternate skim used for testing.
+  - Performs statistical analysis and interpretation of results.
+- `supersymmetry_analysis_local.ipynb`  
+  - Uses locally downloaded datasets
+  - Includes data, background Monte Carlo (MC), and signal MC samples
+- `supersymmetry_analysis_2025beta_release.ipynb`  
+  - Uses 2025-beta release of ATLAS Open Data for education via atlasopenmagic
+  - Includes data, background MC samples (no signal MC samples)
+  - Recommended skim: "2to4lep"
+- `supersymmetry_analysis_test.ipynb`
+  - Test version using atlasopenmagic
+  - Includes data, background MC, and signal MC samples
 
 These notebooks represent the core computational components used to produce the results presented in the thesis.
 
-
+---
 ## Running the Notebooks Online
-Open with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD) </br>
+### Run Online
+**Binder** </br>
+- Launch an interactive environment directly in your browser: Open with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD)
 
-Open with Google Collab: WIP </br> 
-- [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analysis.ipynb)</br>
+
+**Google Collab** 
+
+> Work in Progress
+
+- [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analysis.ipynb)
+- [supersymmetry_analysis_2025beta_release](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/supersymmetry_analysis_2025beta_release.ipynb)
+
+### Run Locally
+> Work in Progress
+
+Open the Jupyter notebook in a python environment. 
+
+
+#### Requirements
+- Python 3.x
+- Jupyter Notebook
+- Dependencies listed in `environment.yml`
+
+---
+
