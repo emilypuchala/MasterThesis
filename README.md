@@ -54,12 +54,13 @@ These notebooks represent the core computational components used to produce the 
 
 
 ### Run Locally
-To run the notbooks locally, esnure you have installed a way to run python with a Jupyer notebook.
+To run the notebooks locally, ensure you have installed a way to run python with a Jupyter notebook.
+
 1. Download the notebooks from this repository. Clicking [this link](https://github.com/emilypuchala/MasterThesis/archive/refs/heads/main.zip) will download a .zip file with all files in this repository. 
 2. Navigate to downloads and unzip the file.
 3. To open the Jupyter notebook interface in your browser, run the following in the command line:
 ```jupyter notebook```
-4. In the browser interface, navigate to where the the unzipped file is located.
+4. In the browser interface, navigate to where the unzipped file is located.
 5. Open and run the analysis notebook.
 
 
