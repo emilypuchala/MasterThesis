@@ -7,7 +7,7 @@ This repository contains reproducible Jupyter notebooks developed as part of my 
 The project focuses on a experimental high-energy physics analysis using ATLAS Open Data for education, with an emphasis on dark matter searches in a supersymmetric framework with accompanying statistical analysis. The notebooks are designed to be self-contained and reproducible, enabling users to explore the analysis workflows from data handling to final results. 
 
 ## Thesis
-- **Title:** Dark Matter Searches in Two-Lepton Final States with Missing Transverse Energy using ATLAS Open Data 
+- **Title:** Dark matter searches in two-lepton final states with missing transverse energy using ATLAS open data 
 - **Author:** Emily Puchala
 - **Institution:** University of Oslo, Faculty of Mathematics and Natural Sciences
 - **Year:** 2026
@@ -42,7 +42,7 @@ These notebooks represent the core computational components used to produce the 
 ## Running the Notebooks Online
 ### Run Online
 **Binder** </br>
-- Launch an interactive environment directly in your browser: Open with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD)
+- Launch an interactive environment directly in your browser with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD)
 
 
 **Google Collab** 
@@ -52,14 +52,20 @@ These notebooks represent the core computational components used to produce the 
 - [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analysis.ipynb)
 - [supersymmetry_analysis_2025beta_release](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/supersymmetry_analysis_2025beta_release.ipynb)
 
-### Run Locally
-> Work in Progress
 
-Open the Jupyter notebook in a python environment. 
+### Run Locally
+To run the notbooks locally, esnure you have installed a way to run python with a Jupyer notebook.
+1. Download the notebooks from this repository. Clicking [this link](https://github.com/emilypuchala/MasterThesis/archive/refs/heads/main.zip) will download a .zip file with all files in this repository. 
+2. Navigate to downloads and unzip the file.
+3. To open the Jupyter notebook interface in your browser, run the following in the command line:
+```jupyter notebook```
+4. In the browser interface, navigate to where the the unzipped file is located.
+5. Open and run the analysis notebook.
+
 
 
 #### Requirements
-- Python 3.x
+- Python 3.10 or above
 - Jupyter Notebook
 - Dependencies listed in `environment.yml`
 
