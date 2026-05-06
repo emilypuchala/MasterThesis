@@ -39,7 +39,7 @@ This repository includes multiple versions of the supersymmetry analysis noteboo
 These notebooks represent the core computational components used to produce the results presented in the thesis.
 
 ---
-## Running the Notebooks Online
+## Running the Notebooks
 ### Run Online
 **Binder** </br>
 - Launch an interactive environment directly in your browser with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD)
