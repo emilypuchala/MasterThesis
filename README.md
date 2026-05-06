@@ -49,7 +49,7 @@ These notebooks represent the core computational components used to produce the 
 
 > Work in Progress
 
-- [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analysis.ipynb)
+- [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analyis.ipynb)
 - [supersymmetry_analysis_2025beta_release](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/supersymmetry_analysis_2025beta_release.ipynb)
 
 
