@@ -45,9 +45,7 @@ These notebooks represent the core computational components used to produce the 
 - Launch an interactive environment directly in your browser with [Binder](https://mybinder.org/v2/gh/emilypuchala/MasterThesis.git/HEAD)
 
 
-**Google Collab** 
-
-> Work in Progress
+**Google Colab** 
 
 - [statistics_analysis](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/statistics_analyis.ipynb)
 - [supersymmetry_analysis_2025beta_release](https://colab.research.google.com/github/emilypuchala/MasterThesis/blob/main/supersymmetry_analysis_2025beta_release.ipynb)
