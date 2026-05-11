@@ -1,6 +1,4 @@
 #  Master's Thesis
-> This repository is a work in progress while my master's thesis is being finalized.
- 
 
 ## About
 This repository contains reproducible Jupyter notebooks developed as part of my master's thesis at the University of Oslo.
@@ -16,8 +14,8 @@ The project focuses on a experimental high-energy physics analysis using ATLAS O
 ## Repository Structure
 - `statistics_analysis.ipynb`: statistical analysis and interpretation of results
 - `supersymmetry_analysis_local.ipynb`: analysis using locally stored datasets
-- `supersymmetry_analysis_2025beta_release.ipynb`: analysis using ATLAS Open Data (via atlasopenmagic)
-- `supersymmetry_analysis_test.ipynb`: test version using atlasopenmagic for all datasets
+- `supersymmetry_analysis_2025beta_release.ipynb`: analysis using ATLAS Open Data via atlasopenmagic
+- `supersymmetry_analysis_WIP.ipynb`: (work in progress) analysis using ATLAS Open Data via atlasopenmagic
 - `environment.yml`: environment configuration
 
 ---
@@ -25,15 +23,19 @@ The project focuses on a experimental high-energy physics analysis using ATLAS O
 This repository includes multiple versions of the supersymmetry analysis notebook. These versions differ in how the datasets are loaded, the analysis content itself is identical. 
 - `statistics_analysis.ipynb`  
   - Performs statistical analysis and interpretation of results.
-- `supersymmetry_analysis_local.ipynb`  
-  - Uses locally downloaded datasets
-  - Includes data, background Monte Carlo (MC), and signal MC samples
 - `supersymmetry_analysis_2025beta_release.ipynb`  
   - Uses 2025-beta release of ATLAS Open Data for education via atlasopenmagic
   - Includes data, background MC samples (no signal MC samples)
   - Recommended skim: "2to4lep"
-- `supersymmetry_analysis_test.ipynb`
-  - Test version using atlasopenmagic
+- `supersymmetry_analysis_local.ipynb`  
+  - Uses locally downloaded datasets
+  - Includes data, background Monte Carlo (MC), and signal MC samples
+
+
+> The following notebook is a work in progress
+- `supersymmetry_analysis_WIP.ipynb`
+  - Work in Progress (included here for future reproducibility)
+  - Uses ATLAS Open Data for education via atlasopenmagic
   - Includes data, background MC, and signal MC samples
 
 These notebooks represent the core computational components used to produce the results presented in the thesis.
@@ -52,7 +54,7 @@ These notebooks represent the core computational components used to produce the 
 
 
 ### Run Locally
-To run the notebooks locally, ensure you have installed a way to run python with a Jupyter notebook.
+To run the notebooks locally, ensure you have installed a way to run python with Jupyter notebooks.
 
 1. Download the notebooks from this repository. Clicking [this link](https://github.com/emilypuchala/MasterThesis/archive/refs/heads/main.zip) will download a .zip file with all files in this repository. 
 2. Navigate to downloads and unzip the file.
