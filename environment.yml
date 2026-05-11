@@ -14,3 +14,4 @@ dependencies:
   - pip:
       - mt2
       - atlasopenmagic
+      - aiohttp>=3.9.5
